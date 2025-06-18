@@ -70,6 +70,8 @@ pip install -r requirements.txt
 ### 4. Start Ollama with the required model
 
 ```bash
+sudo apt install ollama
+ollama pull qwen2:.05b
 ollama run qwen2:0.5b
 ```
 
